@@ -69,7 +69,7 @@ services:
       - /location/on/host:/config
       - /location/on/host:/data
     ports:
-      - 8989:8989
+      - 9117:9117
     dns:
       - 8.8.8.8
     cap-add:
