@@ -3,7 +3,7 @@
 FROM wiorca/docker-windscribe:latest
 
 # Version
-ARG VERSION=0.0.2
+ARG VERSION=0.0.3
 
 # Expose the webadmin port for Jackett
 EXPOSE 9117/tcp
