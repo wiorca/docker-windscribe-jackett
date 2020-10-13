@@ -1,6 +1,6 @@
 
-# Based on wiorca/docker-windscribe
-FROM wiorca/docker-windscribe:latest
+# Based on wiorca/docker-windscribe-mono
+FROM wiorca/docker-windscribe-mono:latest
 
 # Version
 ARG VERSION=0.0.4
