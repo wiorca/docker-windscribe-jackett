@@ -1,6 +1,6 @@
 #! /bin/bash
 
-# Check to make sure qbittorrent-nox is running
+# Check to make sure Jackett is running
 
 QBTNX=$(pgrep jackett | wc -l )
 if [[ ${QBTNX} -ne 1 ]]
@@ -12,4 +12,3 @@ fi
 echo "Jackett is running"
 
 exit 0
-

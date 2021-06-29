@@ -35,7 +35,7 @@ docker create \
   -v /location/on/host:/config \
   -v /location/elsewhere:/data \
   --dns 8.8.8.8 \
-  -p 8989:8989 \
+  -p 9117:9117 \
   --cap-add NET_ADMIN \
   --restart unless-stopped \
   wiorca/docker-windscribe-jackett
